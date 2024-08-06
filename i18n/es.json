@@ -1,0 +1,86 @@
+{
+  "widget": {
+    "name": "Cumpleaños",
+    "short_description": "Widget Feliz Cumpleaños",
+    "description": "El widget de Feliz Cumpleaños asigna una tarea el día de cumpleaños del cliente, así nunca te olvides de una fecha importante.",
+    "tour_description": "El widget de Feliz Cumpleaños asigna una tarea el día de cumpleaños del cliente, así nunca te olvides de una fecha importante."
+  },
+  "settings": {
+    "custom": "Ajustes",
+    "options": {
+      "title": "Ajustes",
+      "desc": "Configura el formulario para crear una nueva tarea"
+    },
+    "base": "Crea automáticamente tareas dentro de un perfil seleccionado el día del cumpleaños de tu cliente.",
+    "not_active": "Instala el widget para empezar la instalación",
+    "lead": "Lead",
+    "contact": "Contacto",
+    "field": {
+      "title": "Campo de cumpleaños",
+      "desc": "Elige un campo que tenga la fecha de cumpleaños",
+      "tip": "Elige un tipo de campo \"fecha\", \"cumpleaños\" o \"fecha y hora\", o crea uno nuevo con un clic en \"Añadir nuevo campo\"",
+      "or": "o",
+      "create": "Añadir nuevo campo"
+    },
+    "entity": {
+      "options": {
+        "contact": "Contacto",
+        "lead": "Lead"
+      }
+    },
+    "type": {
+      "title": "Tipo de tarea",
+      "desc": "Elige el tipo de tarea a asignar "
+    },
+    "responsible": {
+      "title": "Usuario responsable",
+      "desc": "Asigna un usuario responsable para esta tarea",
+      "select": "Usuarios seleccionados ",
+      "numeral": "usuario,usuario,usuarios",
+      "current": "Actual usuario responsable"
+    },
+    "text": {
+      "title": "Descripción de la tarea",
+      "desc": "Escribe una descripción o deja el campo vacio",
+      "placeholder": "Descripción de la tarea..."
+    },
+    "template": {
+      "title": "Plantillas de chat",
+      "desc": "Crea una plantilla de chat para enviar a tus clientes",
+      "name": {
+        "title": "Nombre de la plantilla",
+        "desc": "Escribe el nombre de la plantilla que se mostrará en el perfil"
+      },
+      "text": {
+        "title": "Mensaje de texto ",
+        "desc": "Escribe un mensaje de texto",
+        "placeholder": "Mensaje... "
+      },
+      "list": {
+        "title": "Lista de plantillas creadas"
+      },
+      "create": "Crear una plantilla"
+    },
+    "errors": {
+      "template_fields_required": "Ingresa el nombre y el mensaje de texto para continuar."
+    },
+    "modal": {
+      "title": "Crear nuevo campo Cumpleaños",
+      "name": {
+        "title": "Nombre del campo",
+        "desc": "Ingresa el nombre del campo"
+      },
+      "entity": {
+        "title": "Tipo de objeto",
+        "desc": "Selecciona el tipo de objeto"
+      },
+      "success_saved": "El nuevo campo Cumpleaños se ha creado correctamente.",
+      "create": "Crear un campo"
+    },
+    "widget_panel": {
+      "birthday": "¡Hoy tu cliente está cumpliendo años!",
+      "not_birthday": "No hay cumpleaños hoy. ¡Vuelve mañana!",
+      "congratulate": " ¡Envíale un saludo!"
+    }
+  }
+}

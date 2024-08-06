@@ -1,0 +1,29 @@
+<div class="kommo-settings">
+  <div class="kommo-text--settings">
+    {{ langs.title }}
+  </div>
+
+  <form id="{{ prefix }}__field-form">
+    <div class="kommo-settings__content">
+      <div class="kommo-settings__content__title">
+        <h4 class="kommo-h4--settings">{{ langs.name.title }}</h4>
+        <p class="kommo-p--settings">{{ langs.name.desc }}</p>
+      </div>
+      <div class="kommo-settings__content__value">
+        {{ name }}
+      </div>
+
+      <div class="kommo-settings__content__title">
+        <h4 class="kommo-h4--settings">{{ langs.entity.title }}</h4>
+        <p class="kommo-p--settings">{{ langs.entity.desc }}</p>
+      </div>
+      <div class="kommo-settings__content__value">
+        {{ entity }}
+      </div>
+
+      <div class="kommo-settings__content__value--full">
+        {{ button }}
+      </div>
+    </div>
+  </form>
+</div>

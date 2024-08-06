@@ -1,0 +1,86 @@
+{
+  "widget": {
+    "name": "Aniversário",
+    "short_description": "Widget Feliz Aniversário",
+    "description": "O widget de Feliz Aniversário atribui uma tarefa no dia do aniversário do cliente, para que você nunca perca uma data importante.",
+    "tour_description": "O widget de Feliz Aniversário atribui uma tarefa no dia do aniversário do cliente, para que você nunca perca uma data importante."
+  },
+  "settings": {
+    "custom": "Configurações",
+    "options": {
+      "title": "Configurações",
+      "desc": "Defina o formulário para criar uma nova tarefa"
+    },
+    "base": "Automaticamente cria tarefas dentro de um perfil selecionado no dia do aniversário do seu cliente.",
+    "not_active": "Instale o widget para começar a configuração",
+    "lead": "Lead",
+    "contact": "Contato",
+    "field": {
+      "title": "Campo de aniversário",
+      "desc": "Selecione um campo que contenha a data de aniversário",
+      "tip": "Selecione um tipo de campo “data”, “aniversário” ou “data e hora”, ou crie um novo campo ao clicar “adicionar novo campo”.",
+      "or": "ou ",
+      "create": "Adicionar novo campo"
+    },
+    "entity": {
+      "options": {
+        "contact": "Contato",
+        "lead": "Lead"
+      }
+    },
+    "type": {
+      "title": "Tipo de tarefa",
+      "desc": "Selecione o tipo de tarefa que será atribuida"
+    },
+    "responsible": {
+      "title": "Usuário responsável",
+      "desc": "Escolha o usuário responsável por esta tarefa",
+      "select": "Usuários selecionados",
+      "numeral": "usuário,usuário,usuários",
+      "current": "Usuário responsável atual"
+    },
+    "text": {
+      "title": "Descrição da tarefa",
+      "desc": "Escreva a descrição ou deixe o campo em branco",
+      "placeholder": "Descrição da tarefa…"
+    },
+    "template": {
+      "title": "Modelos de chat",
+      "desc": "Crie um modelo de chat para enviar aos seus clientes",
+      "name": {
+        "title": "Nome do modelo",
+        "desc": "Insira o nome do modelo que aparecerá no perfil"
+      },
+      "text": {
+        "title": "Texto da mensagem",
+        "desc": "Escreva a mensagem que será enviada ao cliente",
+        "placeholder": "Mensagem…"
+      },
+      "list": {
+        "title": "Lista de modelos criados"
+      },
+      "create": "Criar um modelo"
+    },
+    "errors": {
+      "template_fields_required": "Insira o nome do modelo e o texto da mensagem para continuar"
+    },
+    "modal": {
+      "title": "Criar novo campo Aniversário",
+      "name": {
+        "title": "Nome do campo",
+        "desc": "Inserir nome do campoo"
+      },
+      "entity": {
+        "title": "Tipo de objeto",
+        "desc": "Selecionar tipo de objeto"
+      },
+      "success_saved": "Novo campo Aniversário foi criado com sucesso",
+      "create": "Criar campo"
+    },
+    "widget_panel": {
+      "birthday": "Hoje é aniversário do seu cliente!",
+      "not_birthday": "Sem aniversários hoje. Cheque de novo amanhã!",
+      "congratulate": "Enviar parabéns"
+    }
+  }
+}

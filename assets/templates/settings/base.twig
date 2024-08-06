@@ -1,0 +1,117 @@
+<div id="kommo-settings" class="kommo-settings" style="display: none">
+  {% if not active %}
+    <div class="roydis-text--settings">
+      {% if exception %}
+        {{ exception }}
+      {% else %}
+        {{ langs.not_active }}
+      {% endif %}
+    </div>
+  {% else %}
+    <div class="kommo-text--settings">
+      {{ langs.base }}
+    </div>
+
+    <form id="{{ prefix }}-settings__form">
+      <input type="hidden" name="params[templates]" id="{{ prefix }}-templates-list">
+      <h3 class="kommo-h3--settings">{{ langs.options.title }}</h3>
+      <div class="kommo-text--settings">
+        {{ langs.options.desc }}
+      </div>
+      <div class="kommo-settings__content">
+
+        <div class="kommo-settings__content__title">
+          <h4 class="kommo-h4--settings">
+            {{ langs.field.title }}
+            <span class="kommo__tooltip-wrap">
+              <img width="10px" src="{{ icons.path }}/question.svg" class="kommo__tooltip-question"/>
+              <span class="kommo__settings__tooltip">{{ langs.field.tip }}</span>
+            </span>
+          </h4>
+          <p class="kommo-p--settings">{{ langs.field.desc }}</p>
+        </div>
+        <div class="kommo-settings__content__value">
+          {{ field }}
+          <div class="{{ prefix }}__field-create">{{ langs.field.or }}<span class="{{ prefix }}__field-create__link">{{ langs.field.create }}</span>
+          </div>
+        </div>
+
+        <div class="kommo-settings__content__title">
+          <h4 class="kommo-h4--settings">
+            {{ langs.type.title }}
+          </h4>
+          <p class="kommo-p--settings">{{ langs.type.desc }}</p>
+        </div>
+        <div class="kommo-settings__content__value">
+          {{ type }}
+        </div>
+
+        <div class="kommo-settings__content__title">
+          <h4 class="kommo-h4--settings">
+            {{ langs.responsible.title }}
+          </h4>
+          <p class="kommo-p--settings">{{ langs.responsible.desc }}</p>
+        </div>
+        <div class="kommo-settings__content__value">
+          {{ responsible }}
+        </div>
+
+        <div class="kommo-settings__content__title">
+          <h4 class="kommo-h4--settings">
+            {{ langs.text.title }}
+          </h4>
+          <p class="kommo-p--settings">{{ langs.text.desc }}</p>
+        </div>
+        <div class="kommo-settings__content__value">
+          {{ text }}
+        </div>
+      </div>
+
+      <h3 class="kommo-h3--settings">{{ langs.template.title }}</h3>
+      <div class="kommo-text--settings">
+        {{ langs.template.desc }}
+      </div>
+    </form>
+    <div class="kommo-settings__content">
+      <div class="kommo-settings__content__title">
+        <h4 class="kommo-h4--settings">
+          {{ langs.template.name.title }}
+        </h4>
+        <p class="kommo-p--settings">{{ langs.template.name.desc }}</p>
+      </div>
+      <div class="kommo-settings__content__value">
+        {{ template.name }}
+      </div>
+
+      <div class="kommo-settings__content__title">
+        <h4 class="kommo-h4--settings">
+          {{ langs.template.text.title }}
+        </h4>
+        <p class="kommo-p--settings">{{ langs.template.text.desc }}</p>
+      </div>
+      <div class="kommo-settings__content__value">
+        {{ template.text }}
+      </div>
+
+
+      <div class="kommo-settings__content__title"></div>
+      <div class="kommo-settings__content__value">
+        {{ template.create }}
+      </div>
+
+      <div class="kommo-settings__content__title">
+        <h4 class="kommo-h4--settings">
+          {{ langs.template.list.title }}
+        </h4>
+        <p class="kommo-p--settings">{{ langs.template.list.desc }}</p>
+      </div>
+      <div class="kommo-settings__content__value">
+        <ul id="{{ prefix }}-templates-list-ul">
+          {% for item in template.list %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  {% endif %}
+</div>

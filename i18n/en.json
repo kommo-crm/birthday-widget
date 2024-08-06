@@ -1,0 +1,86 @@
+{
+  "widget": {
+    "name": "Birthday",
+    "short_description": "Happy Birthday widget",
+    "description": "The Happy Birthday widget assigns a task on a client's birthday, so you never miss an important date.",
+    "tour_description": "The Happy Birthday widget assigns a task on a client's birthday, so you never miss an important date."
+  },
+  "settings": {
+    "custom": "Settings",
+    "options": {
+      "title": "Settings",
+      "desc": "Set up the form for creating a new task"
+    },
+    "base": "Automatically create tasks within a selected profile when it's your client's birthday.",
+    "not_active": "Install the widget to begin setup.",
+    "lead": "Lead",
+    "contact": "Contact",
+    "field": {
+      "title": "Birthday field",
+      "desc": "Select a field that contains the birthday date",
+      "tip": "Select a field type \"date\", \"birthday\" or \"date and time\", or create a new field by clicking \"Add new field\"",
+      "or": "or",
+      "create": "Add new field"
+    },
+    "entity": {
+      "options": {
+        "contact": "Contact",
+        "lead": "Lead"
+      }
+    },
+    "type": {
+      "title": "Task type",
+      "desc": "Select the type of task to assign"
+    },
+    "responsible": {
+      "title": "Responsible user",
+      "desc": "Assign a user responsible for this task",
+      "select": "Select users",
+      "numeral": "user,user,users",
+      "current": "Current responsible user"
+    },
+    "text": {
+      "title": "Task description",
+      "desc": "Write the description or leave the field empty",
+      "placeholder": "Task description..."
+    },
+    "template": {
+      "title": "Chat templates",
+      "desc": "Create a chat template to send to your clients",
+      "name": {
+        "title": "Template name",
+        "desc": "Enter the template name that will be shown in the profile"
+      },
+      "text": {
+        "title": "Message text",
+        "desc": "Write the message text that will be sent to the client",
+        "placeholder": "Message..."
+      },
+      "list": {
+        "title": "List of created templates"
+      },
+      "create": "Create a template"
+    },
+    "errors": {
+      "template_fields_required": "Enter the template name and message text to continue."
+    },
+    "modal": {
+      "title": "Create new Birthday field",
+      "name": {
+        "title": "Name of the field",
+        "desc": "Enter name of the field"
+      },
+      "entity": {
+        "title": "Type of object",
+        "desc": "Select type of object"
+      },
+      "success_saved": "New Birthday field was successfully created.",
+      "create": "Create a field"
+    },
+    "widget_panel": {
+      "birthday": "Today is your client's birthday!",
+      "not_birthday": "No birthdays today. Check back tomorrow!",
+      "congratulate": "Send a birthday wish"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "widget": {
+    "name": "widget.name",
+    "description": "widget.description",
+    "short_description": "widget.short_description",
+    "version": "1.0.1",
+    "interface_version": 2,
+    "init_once": false,
+    "locale": ["en", "pt", "es"],
+    "installation": true,
+    "support": {
+      "link": "https://kommo.com",
+      "email": "support@kommo.com"
+    }
+  },
+  "locations": ["settings", "lcard-1", "ccard-0"],
+  "tour": {
+    "is_tour": true,
+    "tour_images": {
+      "en": ["/images/slideshow_1_en.jpg", "/images/slideshow_2_en.jpg", "/images/slideshow_3_en.jpg"],
+      "es": ["/images/slideshow_1_es.jpg", "/images/slideshow_2_es.jpg", "/images/slideshow_3_es.jpg"],
+      "pt": ["/images/slideshow_1_pt.jpg", "/images/slideshow_2_pt.jpg", "/images/slideshow_3_pt.jpg"]
+    },
+    "tour_description": "widget.tour_description"
+  },
+  "settings": {
+    "custom": {
+      "name": "settings.custom",
+      "type": "custom",
+      "required": false
+    }
+  }
+}

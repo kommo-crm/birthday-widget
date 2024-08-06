@@ -1,0 +1,52 @@
+.kommo-birthday__tasks-text,
+.kommo-birthday__template-text {
+  width: 100%;
+  height: 100px;
+}
+
+.kommo-birthday__template-name {
+  width: 100%;
+}
+
+.kommo-birthday__field-create {
+  font-size: 13px;
+  line-height: 1.08;
+  color: #8f9a9d;
+  padding: 3px 0;
+}
+
+.kommo-birthday__field-create__link {
+  color: #1579d2;
+  text-decoration: underline;
+  cursor: pointer;
+  padding-left: 5px;
+}
+
+.kommo-birthday__field-modal .modal-body {
+  width: 700px;
+}
+
+.kommo-birthday__badge {
+  background: #ccc8f9;
+  padding: 0 5px;
+  border-radius: 3px;
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.kommo-birthday__right_panel__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.kommo-birthday__right_panel__container + .card-widgets__widget__body,
+.kommo-birthday__right_panel__container {
+  background-color: #f3efff;
+}
+
+.kommo-birthday__right_panel__inner_text {
+  padding: 10px 0;
+
+  text-align: center;
+}
